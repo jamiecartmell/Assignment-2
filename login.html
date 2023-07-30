@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">LGCY SNEAKERS</div>
+        <div class="hamburger">
+            <div class="header-line"></div>
+            <div class="header-line"></div>
+            <div class="header-line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="market.html">Market</a>
+                </li>
+                <li>
+                    <a href="arrivals.html">New Arrivals</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="login.html" class="active">Account</a>
+                </li>
+                <li>
+                    <i class='bx bx-shopping-bag' id="cart-icon"></i>
+                </li>
+            </ul>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                    <div class="cart-box">
+                    </div>
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <button type="button" class="btn-buy">Buy Now</button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="contain forms">
+        <div class="form login">
+            <div class="form-content">
+                <h1>Login</h1>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <h1>Signup</h1>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Create password" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirm password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="images/google.png" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-meta'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="market.html">Market</a>
+            </li>
+            <li>
+                <a href="arrivals.html">New Arrivals</a>
+            </li>
+            <li>
+                <a href="blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="login.html">Account</a>
+            </li>
+            <li>
+                <a id="TermsLink">Terms</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright"><a href="mailto:jamie@wordpressupdates.ie">jamie@wordpressupdates.ie</a> @ 2023 <br>
+            tel: 086 600 7351</p>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="scriptlogin.js"></script>
+</body>
+
+</html>

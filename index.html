@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LGCY</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header>
+    <div class="logo">LGCY SNEAKERS</div>
+    <div class="hamburger">
+      <div class="header-line"></div>
+      <div class="header-line"></div>
+      <div class="header-line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="Index.html" class="active">Home</a>
+        </li>
+        <li>
+          <a href="market.html">Market</a>
+        </li>
+        <li>
+          <a href="arrivals.html">New Arrivals</a>
+        </li>
+        <li>
+          <a href="blog.html">Blog</a>
+        </li>
+        <li>
+          <a href="Login.html">Account</a>
+        </li>
+        <li>
+          <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        </li>
+      </ul>
+      <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+          <div class="cart-box">
+          </div>
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">$0</div>
+        </div>
+        <a href="Shipping.html" target="_blank">
+          <button type="button" class="btn-buy">Buy Now</button></a>
+        <i class='bx bx-x' id="close-cart"></i>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <div class="slider-container">
+    <div id="slide">
+      <div class="item" style="background-image: url(Images/AdidasNMD.jpg);">
+        <div class="content">
+          <div class="name">LGCY SNEAKERS</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(Images/crtzwebp.webp );">
+        <div class="content">
+          <div class="name">MARKET PLACE</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(Images/NBPink.jpg);">
+        <div class="content">
+          <div class="name">NEW ARRIVALS</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="background-image: url(Images/Travis.jpg);">
+        <div class="content">
+          <div class="name">BLOG</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="
+            background-image: url(Images/BlackAirForce.jpg);
+          ">
+        <div class="content">
+          <div class="name">NEW COLLABS</div>
+          <button>See more</button>
+        </div>
+      </div>
+      <div class="item" style="
+            background-image: url(Images/AiirMaxBrown.jpg);
+          ">
+        <div class="content">
+          <div class="name">ABOUT US</div>
+          <button>See more</button>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+      <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+  </div>
+
+  <section class="shop-container">
+    <h2 class="section-title">Shop Products</h2>
+    <!-- Content -->
+    <div class="shop-content">
+      <!-- Box 1 -->
+      <div class="product-box">
+        <img src="Nike/Air_Jordan_1 Mid_'Light_Smoke_Grey'.webp" alt="Nike Air Jordan 1 Light grey" class="product-img">
+        <h2 class="product-title">Jordan 1 Light Smoke</h2>
+        <span class="price">$210</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="product-box">
+        <img src="New Balance/NB_2002r_Rainy_Cloud.webp" alt="New Balance grey with multiple lyers" class="product-img">
+        <h2 class="product-title">New Balance Rainy Cloud</h2>
+        <span class="price">$250</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="product-box">
+        <img src="Adidas/Adidas_Grinch.webp" alt="Adidas Green shoes" class="product-img">
+        <h2 class="product-title">Adidas Grinches</h2>
+        <span class="price">$400</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="product-box">
+        <img src="Nike/Nike_Fragment_Design_x_Travis_Scottx_Air_Jordan_1_Retro_Low_'Sail_Black_Military_Blue'.webp"
+          alt="Travis Scott shoes with backwards nike tick blue cream and black " class="product-img">
+        <h2 class="product-title">Travis Scott Fragment</h2>
+        <span class="price">$1200</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 5 -->
+      <div class="product-box">
+        <img src="New Balance/NB_530_Steel_Blue.webp" alt="" class="product-img">
+        <h2 class="product-title">New Balance Steel Blue</h2>
+        <span class="price">$85</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 6 -->
+      <div class="product-box">
+        <img src="Nike/Air_Jordan_Zion_Williams.webp" alt="Neutral Browns with pathcwork on the shoe "
+          class="product-img">
+        <h2 class="product-title">Jordan 1 x Zion Williams</h2>
+        <span class="price">$680</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 7 -->
+      <div class="product-box">
+        <img src="Adidas/Adidas_Samba_White_Lucid_Blue.webp" alt="Low profile Adidas smabas white and blue"
+          class="product-img">
+        <h2 class="product-title">Adidas Sambas Lucid Blue</h2>
+        <span class="price">$100</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+
+      <!-- Box 8 -->
+      <div class="product-box">
+        <img src="Nike/Nike_Dunk_Low_'Championship_Purple'.webp" alt="Purple and White " class="product-img">
+        <h2 class="product-title">Nike Dunk Championship Purple</h2>
+        <span class="price">$180</span>
+        <i class='bx bx-shopping-bag add-cart'></i>
+      </div>
+    </div>
+    <a href="market.html">
+      <button type="button" class="btn-shop">Shop</button>
+    </a>
+  </section>
+
+
+
+  <secton class="about-us-container">
+    <div class="about-us-heading">
+      <h1>About Us</h1>
+      <p>We Are LGCY SNEAKERS</p>
+    </div>
+    <section class="about-us">
+      <img src="Images/Impossible.jpg">
+      <div class="content">
+        <h2>Meet the people behind LGCY Sneakers</h2>
+        <p>Welcome to LGCY Sneakers, your ultimate destination for the trendiest and most stylish footwear. We are a
+          premier online sneaker retailer, passionate about delivering the latest and greatest kicks to sneaker
+          enthusiasts worldwide.
+          <br>
+          At LGCY Sneakers, we understand that sneakers are more than just shoes; they are a reflection of your
+          personality and style. That's why we curate a carefully selected collection of top-notch sneakers from
+          renowned brands and emerging designers, ensuring you stay ahead of the fashion curve.
+          <br>
+          Our team of sneaker aficionados is dedicated to providing you with a seamless shopping experience. We take
+          pride in offering excellent customer service, quick deliveries, and hassle-free returns, making your journey
+          with us enjoyable from start to finish.
+        </p>
+        <button class="read-more-btn">Read More</button>
+      </div>
+    </section>
+  </secton>
+
+  <section id="blog">
+    <div class="blog-heading">
+      <h1>My Blog</h1>
+      <span>My Recent Posts</span>
+
+    </div>
+
+    <div class="blog-container">
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="Images/AirMax.jpg" alt="Blog-image">
+        </div>
+        <div class="blog-text">
+          <span>01 July 2023 | Shoe Culture Impact</span>
+          <a href="#" class="blog-title">Shoes, an essential aspect of everyday life, have evolved far beyond their
+            practical purpose
+            of protecting our feet. Shoe culture, a fascinating facet of human history, reflects the
+            intersection of fashion</p>
+            <a href="blog.html">Read More</a>
+        </div>
+      </div>
+
+
+
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="Images/GreenConverse.jpg" alt="Blog-image">
+        </div>
+        <div class="blog-text">
+          <span>07 July 2023 | The Sneaker Obsession</span>
+          <a href="#" class="blog-title">In today's fast-paced and style-conscious society, sneakers have become more
+            than just
+            athletic footwear; they have evolved into a symbol of cultural significance, fashion-forward
+            expression, and societal relevance.</p>
+            <a href="blog.html">Read More</a>
+        </div>
+      </div>
+
+      <div class="blog-box">
+        <div class="blog-img">
+          <img src="Images/Travis.jpg" alt="Blog-image-travis-scott-x-nike-collab">
+        </div>
+        <div class="blog-text">
+          <span>18 July 2023 | Travis Scott and Nike Air Jordan 1 Low: A Legendary Collaboration</span>
+          <a href="#" class="blog-title">When the worlds of music and sneaker culture collide, the results can be
+            nothing short of legendary.</p>
+            <a href="blog.html">Read More</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="footer">
+    <div class="social">
+      <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+      <a href="#"><i class='bx bxl-facebook-square'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-meta'></i></a>
+    </div>
+
+    <ul class="list">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="market.html">Market</a>
+      </li>
+      <li>
+        <a href="arrivals.html">New Arrivals</a>
+      </li>
+      <li>
+        <a href="blog.html">Blog</a>
+      </li>
+      <li>
+        <a href="login.html">Account</a>
+      </li>
+      <li>
+        <a id="TermsLink">Terms</a>
+      </li>
+      <li>
+        <a href="#">Privacy Policy</a>
+      </li>
+    </ul>
+    <p class="copyright"><a href="mailto:jamie@wordpressupdates.ie">jamie@wordpressupdates.ie</a> @ 2023 <br>
+      tel: 086 600 7351</p>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
