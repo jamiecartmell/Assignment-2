@@ -1,3 +1,3 @@
 # Assignment-2
-LGCY Sneakers 
+# LGCY Sneakers 
 LGCY sneakers are a website themed around sneakers and everything to do with them. LGCY sneakers feature a home page with an easy to navigate nav bar where the users can immediately understand the flow of the website, the slider to showcase the different pages as well as to include some interactivity for the users. A about us section is featured to give the user a little bit of inside into myself. A feature section with some of the shoes that are featured that can also take you directly to the market place for the sneakers. ![image](https://github.com/jamiecartmell/Assignment-2/assets/128540615/1c92c13a-71a0-4d69-bc87-3d068893799b)
