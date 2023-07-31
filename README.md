@@ -7,3 +7,6 @@ Market Place: https://jamiecartmell.github.io/Assignment-2/market.html
 New Arrivals: https://jamiecartmell.github.io/Assignment-2/arrivals.html
 Blog: https://jamiecartmell.github.io/Assignment-2/blog.html
 Account: https://jamiecartmell.github.io/Assignment-2/login.html
+Contact Information
+Tel: 087 600 7351
+Email:jamie@wordpressupdates.ie
